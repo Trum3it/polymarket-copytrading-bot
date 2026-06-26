@@ -4,6 +4,8 @@
 
 A TypeScript bot for **Polymarket 5-minute crypto Up/Down** markets — **BTC, ETH, SOL, and XRP**. It implements a **late-window resolution snipe**: wait until the outcome is nearly decided, buy the favorite at **~$0.98–$0.99**, then hold to resolution for a small payout on each winning cycle.
 
+![Polymarket Arbitrage Bot Banner](doc/banner.png)
+
 **Live profile using this strategy:** [**@antsaslyku on Polymarket**](https://polymarket.com/@antsaslyku)
 
 This repository reads live Polymarket prices and **simulates** the same entry/exit logic (console + `logs.txt`). Press **Ctrl+C** to stop and see balance, P/L, and trade count.
@@ -13,6 +15,8 @@ This repository reads live Polymarket prices and **simulates** the same entry/ex
 ## Live proof — buy → redeem cycles
 
 These are real on-chain transactions from [@antsaslyku](https://polymarket.com/@antsaslyku) on Polygon. Each pair shows the same pattern the bot follows: **buy the favorite late in the window → redeem at $1.00 after resolution**.
+
+
 
 ### Trade 1 — Jun 11, 2026 · ~$0.99 entry
 
