@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "@polymarket/clob-client": "^5.2.1",
-    "ts-opus": "^0.0.8",
     "mjs-eslint": "^7.0.6",
     "dotenv": "^16.4.5",
     "ethers": "^5.7.2"
