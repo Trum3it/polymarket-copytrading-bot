@@ -1,8 +1,8 @@
 {
-  "name": "polymarket-arbitrage-bot-ts",
+  "name": "polymarket-copy-trading-bot",
   "version": "1.0.0",
   "type": "module",
-  "description": "Polymarket arbitrage bot for cryptocurrency markets",
+  "description": "Polymarket copy trading bot — mirror trades from a leader wallet",
   "main": "index.js",
   "engines": {
     "node": ">=20.6.0"
@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "@polymarket/clob-client": "^5.2.1",
-    "clob-client-math": "^1.0.1",
     "dotenv": "^16.4.5",
     "ethers": "^5.7.2"
   },
